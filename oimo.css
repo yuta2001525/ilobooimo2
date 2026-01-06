@@ -1,0 +1,550 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+  color: #222;
+  background: #f8f4ed;
+  line-height: 1.7;
+}
+
+/* header */
+#section1,#section2{
+  scroll-margin-top: 8.5rem;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+
+}
+
+
+.logo{
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  
+
+}
+.photo{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.logodayo{
+
+  width: 5rem;
+  height: 5rem;
+  
+}
+.logoname{
+  height: 5rem;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+.nav {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.nav a {
+ 
+  font-size: 0.7rem;
+  text-decoration: none;
+  color: #000;
+}
+.nav a :hover{
+  color: #0bd;
+}
+
+/* hero */
+.hero {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-top: 8.5rem;
+}
+
+.hero img {
+  max-width: 100%;
+  max-height: 70vh;
+  object-fit: cover;
+  
+}
+
+/* concept */
+.concept {
+  display: block;
+  text-align: center;
+  padding: 0 ;
+  margin: 1rem 0;
+}
+
+.cat {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.concept p {
+  display: block;
+  font-size: 1.2rem;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  text-align: left;
+
+}
+.indent{
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.shokai {
+  display: block;
+  color: #000;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+/* product */
+.product {
+  text-align: center;
+  margin: 0;
+}
+.beniharu{
+  text-decoration: none;
+}
+.beniharu:hover{
+  color: #0bd;
+ 
+}
+
+.product img {
+  width: 70%;
+}
+
+.product-name {
+  margin-top: 0;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  color: #000;
+  
+}
+.product-name:hover{
+  color:#0bd;
+}
+
+.text-link {
+  font-size: 1rem;
+  color: #000;
+  text-decoration: underline;
+}
+.text-link:hover{
+  color: #0bd;
+}
+.footer{
+  background-color: #777;
+  text-align: center;
+  font-size: 12px;
+  padding: 0.5rem 0;
+  color: #fff;
+  margin-top: 2rem ;
+}
+.midasi{
+  display: block;
+}
+.hosi{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #e6d3a3;
+  font-size: 2rem;
+  margin-top: 3rem;
+
+}
+.itemi{
+  max-width: 100vw;
+  max-width:  100vh;
+  width: 290px;
+  height: 218px;
+  object-fit: cover;
+  display: block;
+  margin: 1.5rem auto;
+  
+}
+.midasi p{
+  font-size: 1.25rem;
+  width: 100%;
+  text-align: center;
+  
+}
+.underline{
+  border-bottom: 3px solid #c75c2c;
+  padding-bottom: 4px;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.kodawari{
+  display: block;
+}
+.komidasi{
+  display: flex;
+  text-align: left;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+.kodawari img{
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+.kodawari p{
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+.softdry{
+  display: block;
+}
+.softdry img{
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin: 1rem auto;
+
+}
+.softdry p{
+  display: block;
+  font-size: 1.2rem;
+  max-width: 90vw;
+  text-align: left;
+  margin: 1rem auto;
+}
+.hozon{
+  display: block;
+  width: 90vw;
+
+}
+.hozon p{
+font-size: 1.25rem;
+padding-left: 1rem;
+line-height: 1.7;
+}
+.inst{
+  margin-bottom: 1.5rem;
+}
+.hozon a{
+  display: block;
+  font-size: 1.4rem;
+  text-align: left;
+  margin-top:  2rem;
+  padding-left: 1rem;
+}
+.lead {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+
+.contact-form label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 16px;
+  width: 90%;
+  margin: 1rem auto;
+}
+.contact-form p{
+    font-size: 1rem;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: none;
+  background: #eee;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  width: 50%;
+  padding: 12px;
+  background: #2fa6a1;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  margin: 1rem auto;
+}
+
+
+.note{
+  display: block;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  width: 100%;
+}
+.shop{
+  margin-bottom: 1rem;
+}
+
+.shop img {
+  max-width: 100%;
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+.shop p {
+  font-size: 1rem;
+  margin-top: 8px;
+  padding-top: 0;
+}
+
+.map {
+  width: 100%;
+  margin: 0 auto;
+  height: 220px;
+  padding: 1px;
+  border-radius: 8px;
+  overflow: hidden;
+  background:  #ddd;
+  box-sizing: border-box;
+}
+.otoi{
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+.tel{
+  display: block;
+  text-align: center;
+  margin-top: 0;
+  font-weight:bold;
+  color: #2fa6a1;
+  margin-bottom: 2rem;
+}
+
+.map iframe{
+  width: 90%;
+  height: 100%;
+  border: 0;
+  display: block;
+  border-radius: 7px;
+  margin: 0 auto;
+}
+@media(min-width:1024px) {
+  .header{
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+  }
+  .logo{
+    gap: 2rem;
+  }
+  .logodayo{
+    height: 7rem;
+    width: 7rem;
+  }
+  .logoname{
+    height: 7rem;
+    width: auto;
+  }
+  .nav{
+    gap: 5rem;
+    margin-right: 2rem;
+  }
+  .nav h2{
+    font-size: 2rem;
+    
+  }
+ 
+ 
+  
+  .hero img{
+    width: 100%;
+    max-height: 125vh;
+
+    object-fit: cover;
+    object-position: center ;
+  }
+  .concept{
+    margin-top: 3rem;
+    
+  }
+  .cat{
+    font-size: 3rem;
+  }
+  .concept p{
+    font-size: 2rem;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 3;
+  }
+  .indent{
+    display: inline-block;
+    margin-left: 2rem;
+  }
+  .shokai{
+    margin-top: 5rem;
+    font-size: 3rem;
+    margin-left: 3rem;
+   
+  }
+  .beniharu img{
+    width: 400px;
+    height: 400px;
+    margin-right: 3rem;
+   
+}
+.hosi{
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+.itemi{
+  height: 900px;
+  max-width: 90%;
+  width: 90%;
+  object-fit: cover;
+  object-position: bottom;
+  margin-top: 3rem;
+}
+.midasi{
+  margin-bottom: 3rem;
+}
+.midasi p{
+  font-size: 2.5rem;
+}
+.komidasi{
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.yoko{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0;
+  margin-right: 0;
+}
+.yoko p{
+  max-width: none;
+  margin: 0 auto;
+  margin-left: 0;
+  font-size: 2rem;
+  width: 50%;
+  
+}
+.yoko img{
+  width: 500px;
+  height: 500px;
+}
+
+img.pc-hide{
+  display: none;
+}
+
+.hozon p{
+  font-size: 2rem;
+  margin-top: 1rem;
+  width: 100%;
+  margin-left: 2rem;
+
+}
+.hozon a{
+  font-size: 2rem;
+  text-align: center;
+}
+.otoi{
+  margin-top: 6rem;
+  font-size: 3rem;
+}
+.container{
+  display: block;
+  width: 100%;
+}
+ .contact-form input,
+.contact-form textarea {
+  width: 70%;
+  padding: 3rem;
+  margin-top: 6px;
+  border: none;
+  background: #eee;
+  border-radius: 4px;
+  font-size: 2rem;
+}
+
+.contact-form button {
+  width: 50%;
+  padding: 12px;
+  background: #2fa6a1;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  margin: 4rem auto;
+}
+
+.denwa p{
+  font-size: 2rem;
+}
+.tel{
+  font-size: 3rem;
+  
+}
+.shop{
+  width: 50%;
+}
+.map{
+  margin: 0;
+  width: 50%;
+  height: 32rem;
+}
+.loca{
+  display: flex;
+  align-items: flex-start;
+}
+.shop p{
+  font-size: 1.5rem;
+  margin-left: 3rem;
+  line-height: 2;
+}
+
+
+}
